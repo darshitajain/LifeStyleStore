@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Lifestyle Store</title>
+         <!--        Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" >
+    <!--jQuery library--> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!--Latest compiled and minified JavaScript--> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            .row_style{
+                margin-top:100px;
+                margin-left:350px;
+            }
+            
+            #fd{
+            padding: 10px;
+            
+        }
+        .p_width{
+            width : 370px;
+            
+        }
+        
+        </style>
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                        
+                      <span class="icon-bar"></span>  
+                       <span class="icon-bar"></span>   
+                         <span class="icon-bar"></span> 
+                        
+                        
+                    </button>
+                <a href="index.html" class="navbar-brand"  >Lifestyle Store</a>
+
+                    
+                </div>
+              <div class="collapse navbar-collapse" id="mynavbar">
+               
+                  <ul class="nav navbar-nav navbar-right">
+                      
+                      <li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+                       <li><a href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                      
+                  </ul>
+              
+              
+              
+              </div>  
+                
+            </div>
+            
+        </nav>
+        
+        
+        <div class="container">
+            
+            <div class="row row_style">
+                <div class="col-md-4">
+                <div class="panel panel-primary p_width">
+                    <div class="panel-heading">
+                        LOGIN
+                    </div>
+                    <div class="panel-body">
+                        <p class="text-warning">Login to make a purchase</p>
+                        <form method="post" action="LoginFile"><div id="fd">
+                            <div class="form-group">
+                             <label for="email">Email address:</label>
+                             <input type="email" class="form-control" name="email">
+                            </div>
+                             <div class="form-group">
+                             <label for="pwd">Password:</label>
+                             <input type="password" class="form-control" name="pwd"><br>
+                             <div class="alert alert-danger">
+                             Invalid Username or Password!
+                            </div>
+                            </div>
+                              <div class="form-group">
+                             
+                              <button type="submit" class="btn btn-primary">Login</button>
+                            </div>
+                                
+                                </div>
+                        </form>
+                    </div>
+                    <div class="panel-footer">
+                        Don't have an account? <a href="signup.html">Register</a>
+                    </div>
+                    </div>
+                </div>
+            </div>
+                
+        </div>
+        <footer style="margin-top:220px;height:50px;">
+            <div class="container" >
+                <center>
+                    Copyright &copy; Lifestyle Store. All Rights Reserved.
+                </center>
+            </div>
+        </footer>
+       </body>
+</html>
